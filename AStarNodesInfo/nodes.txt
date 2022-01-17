@@ -1,0 +1,11 @@
+name = A | heuristic = 10
+name = B | heuristic = 8
+name = C | heuristic = 5
+name = D | heuristic = 6
+name = E | heuristic = 3
+name = F | heuristic = 6
+name = G | heuristic = 5
+name = H | heuristic = 10
+name = I | heuristic = 1
+name = J | heuristic = 0
+name = Z | heuristic = 12

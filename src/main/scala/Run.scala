@@ -7,9 +7,9 @@ import java.time.temporal.ChronoUnit
 
 object Run extends App {
 
-  val nodes: List[Node] = Node.fromFile("C:\\\\Users\\lenovo\\Desktop\\AStarNodesInfo\\nodes.txt")
+  val nodes: List[Node] = Node.fromFile("AStarNodesInfo\\nodes.txt")
 
-  val connectionsInfo: List[ConnectionInfo] = ConnectionInfo.fromFile("C:\\\\Users\\lenovo\\Desktop\\AStarNodesInfo\\graph.txt")
+  val connectionsInfo: List[ConnectionInfo] = ConnectionInfo.fromFile("AStarNodesInfo\\graph.txt")
 
   val graph: Graph = models.Graph(nodes, connectionsInfo)
 
